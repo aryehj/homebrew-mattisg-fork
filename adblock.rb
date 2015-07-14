@@ -1,4 +1,4 @@
-class adblock < Formula
+class Adblock < Formula
   homepage "https://github.com/mattisg/adblock"
   head "https://github.com/mattisg/adblock.git"
   url "https://github.com/mattisg/adblock.git", :tag => "v1.0.1"
@@ -6,6 +6,6 @@ class adblock < Formula
   depends_on "bash"
 
   def install
-    bin.install_symlink prefix/adblock
+    bin.install "adblock"
   end
 end
