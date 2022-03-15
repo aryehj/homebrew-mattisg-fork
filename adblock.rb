@@ -1,7 +1,7 @@
 class Adblock < Formula
   homepage "https://github.com/aryehj/mattisg-adblock-fork"
-  head "https://github.com/mattisg/adblock.git"
-  url "https://github.com/mattisg/adblock.git", :tag => "v1.2.1"
+  head "https://github.com/aryehj/mattisg-adblock-fork.git"
+  url "https://github.com/aryehj/mattisk-adblock-fork.git", :tag => "v1.2.1"
 
   desc "Block ads and trackers system-wide, before a request is even issued."
 
