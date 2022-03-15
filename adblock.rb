@@ -1,5 +1,5 @@
 class Adblock < Formula
-  homepage "https://github.com/mattisg/adblock"
+  homepage "https://github.com/aryehj/mattisg-adblock-fork"
   head "https://github.com/mattisg/adblock.git"
   url "https://github.com/mattisg/adblock.git", :tag => "v1.2.1"
 
